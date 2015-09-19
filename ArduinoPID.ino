@@ -51,6 +51,7 @@ void loop()
 		motorOutput = mypid.update(sensorVal);
 		analogWrite(4, motorOutput);
 	}
+    delay(100);//delay for good measure
 	
 }
 
